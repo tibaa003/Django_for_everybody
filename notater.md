@@ -14,6 +14,23 @@
   - [Notater](#notater-2)
     - [Hvordan sette opp en Django server](#hvordan-sette-opp-en-django-server)
   - [Oppsummering](#oppsummering-2)
+- [HTML part 1](#html-part-1)
+  - [Notater](#notater-3)
+  - [Oppsummering](#oppsummering-3)
+- [HTML part 2](#html-part-2)
+  - [Notater](#notater-4)
+  - [Oppsummering](#oppsummering-4)
+- [HTML kode](#html-kode)
+  - [Oppsummering](#oppsummering-5)
+- [CSS part 1](#css-part-1)
+  - [Notater](#notater-5)
+  - [Oppsummering](#oppsummering-6)
+- [CSS part 2](#css-part-2)
+  - [Notater](#notater-6)
+  - [Oppsummering](#oppsummering-7)
+- [CSS part 3](#css-part-3)
+  - [Notater](#notater-7)
+  - [Oppsummering](#oppsummering-8)
 
 
 ## Browser debugger console
@@ -132,3 +149,69 @@ Ikke hør på stupid video bruker pythonanywhere?!??!??!?? bruker heller ``pytho
 
 ### Oppsummering
 Det er mye jobb for å sette opp en Django server, men det er også den vanskligste delen. Det er lurt å ha en virtual enviroment og man må huske å installere alle python add-ons.
+
+## HTML part 1
+
+### Notater
+* Web server response er HTML som er parsed som brukes til å lage DOM
+* Tags til å lage det vi ser
+* HTML og CSS er gammelt og fortsetter å utvikle seg. Nå er det viktig å gjøre ting pent i motsetning til før
+* Browsers er veldig flexible og fikser mange feil i HTML
+* W3 lagde standarder for HTML så det ikke var wild west lenger
+* Med presis HTML bedre optimizing
+
+### Oppsummering
+HTML (Hyper Text Markup Language) er en haug med tags som kan lage DOM-en til nettsider. Den følger standarden som ble laget av W3.
+
+## HTML part 2
+
+### Notater
+
+* Når en URL peker til en mappe ser den etter filer som heter index.html eller lignedne
+* Teksten wrapper annerledes for hver størrelse en browser kan være
+* HTML special characters er cool spesielt for <>
+* HTML ser på meningen med siden, ikke hvor fint det er. CSS fikser finhet
+
+### Oppsummering
+Basic HTML som jeg allerede visste.
+
+## HTML kode
+
+### Oppsummering
+Går gjennom vanlig HTML kode som jeg har skrevet mye før
+
+## CSS part 1
+
+### Notater
+* Response tar med en til fil som sier til DOM (document object file) som sier mer om hvordan det skal se ut. Litt css i vanlig HTML fra før
+* Chrispedrick.com web developer - CSS debugging som er bedre enn browser console
+* CSS trenger pixel perfect plassering fordi buisnesses er evil
+* HTML må forstatt være så fin som mulig fordi universell utforming
+* Lar separere folk som lager HTML og de som designer nettsiden
+
+### Oppsummering
+HTML må fortsatt være fint for universell utforming og accessibility. CSS er også veldig pixel perfect.
+
+## CSS part 2
+
+### Notater
+
+* Link henter filen fra directory og putter inn content som om det var i HTML filen
+* Bedre å ha egen css fil
+* Span og div tags er tags som ikke har noe styling fra før i det hele tatt
+
+### Oppsummering
+Link tagen i head kopierer over innholdet i css filen som blir lenket. Span og div tags finnes bare sånn at man kan ha en tag uten noe inherit styling
+
+## CSS part 3
+
+### Notater
+
+* ``<br clear="all" />`` fjerner float effekten
+* Default font er trash og man burde bytte med engang
+* Med flere fonts valgt er rekkefølgen det samme som priority
+* Font-size er litt goofy
+* CSS ødelegger ting ofte
+
+### Oppsummering
+Mye general CSS ting jeg allerede vet. Noen nye ting på font styling og jeg er ikke den eneste som hater CSS.
