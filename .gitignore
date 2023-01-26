@@ -1,0 +1,5 @@
+# ignore virutal enviroment files
+/.venv
+
+# ignore dj4e samples found at https://github.com/csev/dj4e-samples
+/dj4e-samples
