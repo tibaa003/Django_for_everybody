@@ -1,0 +1,1 @@
+``.venv\scripts\activate`` i terminal for å starte en virtual enviroment
